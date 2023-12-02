@@ -1,0 +1,25 @@
+.one li {
+    display:inline;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: black;
+
+
+    
+    justify-content:space-between;
+    margin-left: 150px;
+  }
+  .one .tt li a{
+    text-decoration: none;
+    color: black;
+   
+    padding-bottom: 20px;
+  }
+  .tt li:hover{
+   border-bottom:2px solid black;
+   padding-bottom: 5px;
+    transition: .1s;}
+    .rrr{
+        background-color: black;
+        color: white;
+    }

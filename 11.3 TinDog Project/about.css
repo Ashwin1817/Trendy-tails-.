@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    color: white;
+    animation: gradient  5s ease infinite;
+    background-size: 180%,180%;
+    
+}
+.one{
+    border: 1px solid white;
+}
+.one li {
+    display:inline;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: white;
+   
+
+
+    
+    justify-content:space-between;
+    margin-left: 150px;
+  }
+  .one .tt li a{
+    text-decoration: none;
+    color: white;
+   
+    padding-bottom: 20px;
+  }
+  .tt li:hover{
+   border-bottom:2px solid white;
+   padding-bottom: 5px;
+    transition: .1s;}
+@keyframes gradient{
+    0%{
+background-position: 0%,50%;
+    }
+    50%{
+        background-position: 50%,100%;
+
+    }
+    100%{
+        background-position: 100%,0%;
+    }
+}
+.s{
+    font-size: xx-large;
+}
+img{
+    padding-left: 20px;
+    float: left;
+    position: relative;
+    padding: 20px;
+}
+h3{
+    padding-left: 10px;
+}
+p ul li{
+    padding-left: 20px;
+    list-style-type:circle;
+}
+.sss{
+    padding-top: 10px;
+}
+.last {
+    border: 1px darkgray;
+}
